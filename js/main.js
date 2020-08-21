@@ -1,4 +1,73 @@
 
+function botao(){
+    document.getElementById("agradecimento").innerHTML="<b>Obrigado por clicar</b>";
+}
+
+function redirecionar(){
+    window.open("https://digitalinnovation.one/sign-in"); //abre em outra janela
+    //window.location.href = "https://digitalinnovation.one/sign-in"; //abre na mesma janela
+}
+
+function trocar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+    elemento.innerHTML = "Obrigado por passar o mouse";
+}
+
+function voltar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+    elemento.innerHTML = "Passe o mouse aqui"
+}
+
+function load(){
+    alert("página carregada");
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value);
+}
+
+/*
+function soma(n1, n2){
+    return soma = n1 + n2;
+}
+alert(soma(5, 10));
+*/
+
+/*
+function validaIdade(idade){
+    var validar;
+    if (idade >= 18){
+        validar = true
+    }else{
+        validar = false
+    }
+    return validar;
+}
+var idade = prompt("Qual sua idade?");
+console.log(validaIdade(idade));
+*/
+
+/*
+function setReplace(frase, nome, novo_nome){
+    return frase.replace(nome, novo_nome)
+}
+alert(setReplace("Vai Japão", "Japão", "Brasil"));
+*/
+
+
+/*
+var n1 = prompt("Primeiro número:");
+var n2 = prompt("Segundo número:");
+function soma(n1, n2){
+    soma = n1 + n2;
+    return "n1" + " + " + "n2" + " = " + soma; 
+}
+alert(soma());
+*/
+
+//END MODULO 1
+
+
 /*
 var d = new Date;
 alert(d.getMonth()+1);
@@ -75,3 +144,5 @@ console.log(frase.toLocaleLowerCase()); //Deixa tudo o elemento selecionado em c
 console.log(frase.toUpperCase());//Deixa tudo o elemento selecionado em caixa alta
 console.log(frase.replace("Japão", "Brasil"));//Troca uma palavra escolhida
 */
+
+//START MODULO 1
